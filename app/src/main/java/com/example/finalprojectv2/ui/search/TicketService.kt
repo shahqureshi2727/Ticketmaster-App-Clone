@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface TicketService {
-//https://app.ticketmaster.com/discovery/v2/events.json?apikey=BTr7b0KDLrA2NX8vOclz55eCxmQqClKt
+//https://app.ticketmaster.com/discovery/v2/events.json?apikey="YOUR API KEY"
 
     @GET("events.json?")
     fun getTickets(@Query("apikey") apiKey : String,
