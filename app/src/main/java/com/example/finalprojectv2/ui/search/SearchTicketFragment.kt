@@ -129,7 +129,7 @@ class SearchTicketFragment : Fragment(), AdapterView.OnItemSelectedListener {
         // Using enqueue method allows to make asynchronous call without blocking/freezing main thread
         // ticketAPI.getTickets() end point gets multiple ticket info with "apikey", "city", "keyword" and "sort" as parameters
         // Shortcut to write the object portion quickly: CTRL + Shift + Space
-        ticketAPI.getTickets("BTr7b0KDLrA2NX8vOclz55eCxmQqClKt", city, keyword, "date,asc").enqueue(object : Callback<TicketData?> {
+        ticketAPI.getTickets("YOUR API KEY", city, keyword, "date,asc").enqueue(object : Callback<TicketData?> {
             override fun onResponse(p0: Call<TicketData?>, result: Response<TicketData?>) {
                 Log.d(TAG, "onResponse: ${result}")
 
