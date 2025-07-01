@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Project v2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_saved">Saved Tickets</string>
+    <string name="title_map">Maps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id" translatable="false">webClientId.apps.googleusercontent.com</string>
+</resources>

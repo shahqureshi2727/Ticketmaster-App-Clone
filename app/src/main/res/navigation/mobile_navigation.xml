@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/searchTicketFragment">
+
+    <fragment
+        android:id="@+id/searchTicketFragment"
+        android:name="com.example.finalprojectv2.ui.search.SearchTicketFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search_ticket" />
+    <fragment
+        android:id="@+id/savedTicketFragment"
+        android:name="com.example.finalprojectv2.ui.saved.savedTicketFragment"
+        android:label="@string/title_saved"
+        tools:layout="@layout/fragment_saved_ticket" />
+    <fragment
+        android:id="@+id/mapsFragment2"
+        android:name="com.example.finalprojectv2.ui.maps.MapsFragment2"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_maps2" />
+
+</navigation>

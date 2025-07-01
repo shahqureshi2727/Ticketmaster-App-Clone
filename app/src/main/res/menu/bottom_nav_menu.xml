@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchTicketFragment"
+        android:icon="@drawable/baseline_content_paste_search_24"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/mapsFragment2"
+        android:icon="@drawable/baseline_assistant_navigation_24"
+        android:title="@string/title_map" />
+    <item
+        android:id="@+id/savedTicketFragment"
+        android:icon="@drawable/baseline_article_24"
+        android:title="@string/title_saved" />
+
+</menu>
